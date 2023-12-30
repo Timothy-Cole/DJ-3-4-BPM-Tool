@@ -2,23 +2,25 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     text-align: center;
-    padding: 20px;
+    padding: 60px; /* Increased from 20px */
+    font-size: 48px; /* Increased from 16px for overall text size */
 }
 
 h1 {
     color: #333;
+    font-size: 72px; /* Increased from 24px */
 }
 
 input[type="number"], button {
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-    font-size: 16px;
+    margin: 30px 0; /* Increased from 10px */
+    padding: 30px; /* Increased from 10px */
+    border-radius: 15px; /* Increased for aesthetic proportion */
+    border: 3px solid #ddd; /* Increased from 1px */
+    font-size: 48px; /* Increased from 16px */
 }
 
 input[type="number"] {
-    width: 200px;
+    width: 600px; /* Increased from 200px */
 }
 
 button {
@@ -26,6 +28,7 @@ button {
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    min-width: 200px; /* Added to increase button width */
 }
 
 button:hover {
@@ -33,7 +36,7 @@ button:hover {
 }
 
 p#result {
-    font-size: 18px;
+    font-size: 54px; /* Increased from 18px */
     color: #333;
-    margin-top: 20px;
+    margin-top: 60px; /* Increased from 20px */
 }
